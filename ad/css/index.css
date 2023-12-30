@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: calc(100vw / 7.5);
+}
+html .warrap {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+html .warrap .hr {
+  width: 80%;
+  margin: 0 auto;
+  height: 2px;
+  background: #ffb785;
+  margin-bottom: 20px;
+}
+html .warrap .title_top {
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+  color: #534344;
+  letter-spacing: 2px;
+  line-height: 30px;
+  text-shadow: #ffddc7 3px 3px 0px;
+  padding: 50px 20px 20px;
+  background-image: url(../images/1.png), url(../images/2.png);
+  background-size: 60px;
+  background-repeat: no-repeat;
+  background-position: 100% 0 ,  0 0;
+}
+html .warrap .tip {
+  font-size: 14px;
+  padding: 0rem 40px 20px;
+  text-align: center;
+  color: #715e60;
+  letter-spacing: 1px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+html .warrap .tip .strong {
+  margin-top: 0.4rem;
+  font-weight: bold;
+}
+html .warrap .content {
+  background-image: url(../images/left.png), url(../images/right.png);
+  background-position: 0 0 , 100% 0 ;
+  background-size: 37px;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #fb6765;
+  margin-bottom: 20px;
+}
+html .warrap .content > .title {
+  font-size: 16px;
+  text-align: center;
+  color: #fa6764;
+  line-height: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+html .warrap .content > p {
+  font-size: 13px;
+  color: #705e5e;
+  line-height: 26px;
+}
+html .warrap .content > .hh {
+  height: 20px;
+}
+.bg {
+  width: 100%;
+}
+.code{
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+.tipall{
+  margin-top: -30px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  color: #ea9518;
+  margin-bottom: 20px;
+}
+.tipall img{
+  width: 50px;
+}
